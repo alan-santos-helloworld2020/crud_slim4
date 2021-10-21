@@ -1,0 +1,36 @@
+POST http://localhost:8000
+Content-Type: application/json
+
+{
+    "nome":"fulano de tal",
+    "telefone":"(00)00000-0000",
+    "email":"fulano@gmail.com",
+    "cep":"0000-000"
+}
+
+###
+GET http://localhost:8000/
+Content-Type: application/json
+
+{
+
+}
+
+###
+PUT http://localhost:8000/1
+Content-Type: application/json
+
+{
+    "nome":"fulano",
+    "telefone":"(00)00000-0000",
+    "email":"fulano@gmail.com",
+    "cep":"0000-000"
+}
+
+###
+DELETE  http://localhost:8000/4
+Content-Type: application/json
+
+{
+
+}
